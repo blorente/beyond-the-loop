@@ -1,10 +1,10 @@
 # --- General options --- #
 
 # Name of website
-title: Level Up Coder
+title: Beyond the Loop
 
 # Short description of your site
-description: Moments that make me level up as a coder.
+description: You know how to write loops. Now let's look beyond.
 
 # --- Local development options ---
 # If your website is hosted locally rather than on GitHub, then you need to uncomment the next two parameters to set the url and baseurl
