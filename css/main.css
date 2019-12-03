@@ -786,3 +786,21 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
+
+/* Subscribe form */
+.subscribe-form {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#subscribe-button {
+  border: 0px;
+  height: 2em;
+  width: 150px;
+  background-color: #eaeaea;
+}
+
+#subscribe-button:hover {
+  background-color: rgb(142, 232, 248);
+  border: 3px solid #0a4e9b;
+  color: #0a4e9b;
+}

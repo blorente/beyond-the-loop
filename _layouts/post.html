@@ -48,11 +48,11 @@ layout: base
         </div>
       {% endif %}
 
+      {% include mailing-list-form.html %}
+
       {% if page.social-share %}
         {% include social-share.html %}
       {% endif %}
-
-      {% include mailing-list-form.html %}
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}
