@@ -4,9 +4,9 @@ title: This me
 subtitle: I code tools to cure papercuts
 ---
 
-My name is Borja, and I'm passionate about becoming the best programmer I can be.
+My name is **Borja**, and I'm passionate about becoming the best programmer I can be.
 
-If you're like me, and are eager to level up as an engineer, this blog is for you.
+If you're like me, and are eager to **level up as an engineer**, this blog is for you.
 
 I've always loved programming. I even studied Computer Science at university.
 
@@ -16,12 +16,17 @@ Since then, self-learned Rust by writing a [GameBoy emulator](https://github.com
 
 This is all thanks to having found amazing mentors that helped me grow. I wish everybody could have the same opportunity.
 
-It's like I spent the first 8 years of my career (a large chunk of college too!) repeating the same beginner tutorials over and over again, and suddenly meeting the right people allowed me to level up, to go from beginner to professional in a very short while.
+It's like I spent the first 8 years of my career (a large chunk of college too!) repeating the same beginner tutorials _over and over again_, and suddenly meeting the right people allowed me to level up, to go **from beginner to professional** in a very short while.
 
-I believe that getting good mentorship is the single most important thing one can do to skyrocket growth as a programmer.
+I believe that getting good mentorship is the single most important thing one can do to skyrocket growth as a programmer. Good mentors don't teach you concepts about programming.
 
-I don't think there are enough good mentors out there, so this blog is my contribution to bridge the gap, so that I can pass on some of that wisdom that I'm so grateful to have gotten.
+Good mentors teach you **how to think** about programming, how to **focus on what matters**, and how to implement **better solutions, faster**. 
+This blog is my attempt to capture some of that wisdom, to crystallize the lessons I've learned through mentorship and experience.
 
-If you're a beginner eager to level up, I hope you find this blog useful. Read, ask questions, keep practicing and ask more questions. I'll do my best to help.
+If you're a beginner eager to **start thinking like a professional**, I hope you find this blog useful. Read, comment, ask questions, keep practicing and ask more questions. I'll do my best to help.
 
-If you're an experienced developer, please disagree with what I say. I'm only at the beginning of my own path, and always looking for advice and feedback.
+If you're an experienced developer, please **disagree with what I say**. I'm only at the beginning of my own path, and always looking for advice and feedback.
+
+See you soon,
+
+Borja
