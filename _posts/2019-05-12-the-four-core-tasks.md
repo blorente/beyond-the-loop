@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Programming Foundations: The 4 Core Tasks"
+subtitle: "How being mindful can help you not feeling overwhelmed."
 date: 2019-12-07
 url: 4-core-tasks.html
-tags: [tutorial, core]
+tags: [Programming Fundamentals]
 call_to_action: ["Learn more about how to get better at these tasks!", "Subscribe, and get notified whenever I write about it! (and only then)"]
 ---
 

@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Antlr4 for C++ with CMake: A practical example"
+subtitle: "A step by step guide to use Antlr4 in your CMake project"
 date: 2017-04-01
 url: antlr4-cpp-cmake.html
-tags: [tutorial, antlr4, c++, CMAKE]
+tags: [Guides and Tutorials, antlr4, c++, CMAKE]
 ---
 Not long ago, I had to process a language's syntax for a rather big solo
 project written in C++14 and using CMake 3.6 as the build system
