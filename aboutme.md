@@ -24,6 +24,6 @@ If you're a beginner eager to **start thinking like a professional**, I hope you
 
 If you're an experienced developer, please **disagree with what I say**. I'm only at the beginning of my own path, and always looking for advice and feedback.
 
-See you soon,
+**See [my personal page](blorente.me) for contact info.** 
 
 Borja
