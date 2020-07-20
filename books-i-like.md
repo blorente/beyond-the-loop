@@ -2,7 +2,7 @@
 layout: page
 title: Books I like
 subtitle: Most coding books are not worth it. These are the other ones.
-call_to_action: I intend to write in-depth reviews to all of these books soon.<br> Get notified when that happens!
+call_to_action: ["I intend to write in-depth reviews to all of these books soon.", "Get notified when that happens!"]
 ---
 Most programming books are manuals, tutorials, or reference materials. These are contextually useful, but most of that information is usually available for free on the internet, so I tend not to buy those.
 
