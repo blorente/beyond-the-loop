@@ -20,7 +20,7 @@ description: Going from beginner to professional
 
 # List of links in the navigation bar
 navbar-links:
-  About Me: "aboutme"
+  About: "about"
   Recurring Series: "recurring-series"
   Books I like: "books-i-like"
   Stuff I use: "other-stuff"

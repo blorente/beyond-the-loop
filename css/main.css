@@ -32,6 +32,9 @@ a:hover,
 a:focus {
   color: {{ site.hover-col }};
 }
+figcaption {
+  font-size: 14px;
+}
 blockquote {
   color: #808080;
   font-style: italic;
