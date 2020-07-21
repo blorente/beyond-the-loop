@@ -16,7 +16,7 @@ This is an account of the trials and conclusions I found.
 
 The ANTLR 4 C++ target needs several things in order to work:
 
-### The [ANTLR `.jar` file](www.antlr.org/download/antlr-4.7-complete.jar)
+### The [ANTLR `.jar` file](https://www.antlr.org/download/antlr-4.7-complete.jar)
 
 This program is the actual parser generator. It takes ANTLR grammar files as input (such as `MySuperAwesomeLanguage.g4`) and, when [run with the `-Dlanguage=Cpp` flag](https://github.com/antlr/antlr4/blob/master/doc/cpp-target.md), it creates parser and lexer classes:
 
