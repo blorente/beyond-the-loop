@@ -1,9 +1,10 @@
 #!/bin/bash
 set -xe
+source scripts/funcs.sh
+date=$(date_now)
 
 title=$1
 title_sanitized=$(echo "${title}" | tr " " "-" | tr "[:upper:]" "[:lower:]")
-date=$(printf '%(%Y-%m-%d)T\n' -1)
 
 cat ./scripts/1_percent_template | \
   sed "s:__TITLE__:${title}:g" | \
