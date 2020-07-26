@@ -45,6 +45,8 @@ Let's go one by one.
 
 ### Use the golden fountain of knowledge that is the sidebar
 
+![Read the sidebar]({{site.baseurl}}/img/for-posts/reddit-post/reddit-read.png)
+
 Most subreddits get a lot of beginner questions. Eventually, most of these questions start repeating over time. To help with that, most subreddits have compiled answers and resources in their about pages. The size of the about page depends on the size of the subreddit, with the largest subreddits having fully-fledged wikis! (TODO Link to r/fitness).
 
 > Whenever I want to learn something new, like a new tool or a new language, **my first instinct is to check the sidebar of that subreddit**.
@@ -58,6 +60,8 @@ If you are wondering "What is the best book to learn Python?" The r/python subre
 <!-- ![r/python's sidebar]({{site.baseurl}}/img/for-posts/r-python-sidebar.png)) -->
 
 ### Seek feedback from the amazing community
+
+![Seek feedback]({{site.baseurl}}/img/for-posts/reddit-post/reddit-ask.png)
 
 > We all need people who will give us feedback. That’s how we improve.
 >   
@@ -84,6 +88,8 @@ Here's an example: I made a small weekend project, to learn C++. I posted it in 
 To recap: Most subreddits are full of knowledgeable people willing to help. As long as you are respectful of their time, don't be afraid to ask them for answers or feedback!
 
 ### Help people in the subreddit to develop your code reading and communication skills
+
+![Review other people's work]({{site.baseurl}}/img/for-posts/reddit-post/reddit-review.png)
 
 I hope this doesn't come as a surprise, but there are two skills that differentiate novice programmers from senior engineers:
 - Senior engineers can navigate a codebase they've never seen before efficiently without much direction.
