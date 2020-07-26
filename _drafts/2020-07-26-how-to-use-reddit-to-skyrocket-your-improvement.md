@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learn programming with Reddit"
+title: Use Reddit to code better
 subtitle: "How to leverage Reddit's communities to skyrocket your improvement"
 date: "2020-07-26"
 url: how-to-use-reddit-to-skyrocket-your-improvement.html
@@ -8,9 +8,10 @@ tags: ["Guides and Tutorials", "feedback", "mentoring", "reddit"]
 call_to_action: ["Do you want to hear about other resources to learn programming?", "Subscribe so you don't miss it!"]
 ---
 
-> We all need people who will give us feedback. That’s how we improve.
->   
-> -- **Bill Gates**
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/tlI022aUWQQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 
 The single fastest way to become better at something is to learn from people who do it better. This is why having a good mentor and a growth mindset can skyrocket your abilities much faster than they normally would.
 
@@ -22,9 +23,7 @@ Luckily, the internet  offers a myriad of options to get that feedback. It's not
 
 In this post, we explore how we can leverage Reddit's communities to skyrocket our programming skill.
 
-## Why Reddit?
-
-TODO: Link to CGPgrey's video.
+# Why Reddit?
 
 At its core, Reddit is a place where communities form. These communities, or _subreddits_ revolve around a particular concept. For instance, r/cpp is a community of people that know about the C++ language, r/gamedev is about developing videogames, and r/learnprogramming is about... well... learning how to program.
 
@@ -32,7 +31,7 @@ There is probably a subreddit for everything you can think of, no matter how big
 
 The key concept here is "community". A community is a place where like-minded people get together to talk about something that interests them. This makes it the perfect place to ask questions, and find people who have walked the same path as you. Most communities are very friendly and willing to help, too!
 
-## How Reddit?
+# How Reddit?
 
 Hopefully I've convinced you that Reddit is a valuable asset to have for your career.
 
@@ -44,7 +43,7 @@ Now, how can you leverage the power of these great communities? I've foud that t
 
 Let's go one by one.
 
-### Way to use Reddit #1: Using the sidebar as a golden fountain of knowledge
+### Use the golden fountain of knowledge that is the sidebar
 
 Most subreddits get a lot of beginner questions. Eventually, most of these questions start repeating over time. To help with that, most subreddits have compiled answers and resources in their about pages. The size of the about page depends on the size of the subreddit, with the largest subreddits having fully-fledged wikis! (TODO Link to r/fitness).
 
@@ -56,9 +55,13 @@ These lists are pure gold. Whenver a new hobby peaks my interest, the first thin
 
 If you are wondering "What is the best book to learn Python?" The r/python subreddit has you covered!
 
-![r/python's sidebar]({{site.baseurl}}/img/for-posts/r-python-sidebar.png))
+<!-- ![r/python's sidebar]({{site.baseurl}}/img/for-posts/r-python-sidebar.png)) -->
 
-### Way to use Reddit #2: Seek feedback from the amazing community
+### Seek feedback from the amazing community
+
+> We all need people who will give us feedback. That’s how we improve.
+>   
+> -- **Bill Gates**
 
 As I said in the begninning, good feedback is the cornerstone of learning. Good feedback is hard to come by, because it requires someone to give you their thought, attention, and careful consideration. The good news is, most subreddits are full of people eager to help!
 
@@ -80,7 +83,7 @@ Here's an example: I made a small weekend project, to learn C++. I posted it in 
 
 To recap: Most subreddits are full of knowledgeable people willing to help. As long as you are respectful of their time, don't be afraid to ask them for answers or feedback!
 
-### Way to use Reddit #3: Help people in the subreddit to develop your code reading and communication skills
+### Help people in the subreddit to develop your code reading and communication skills
 
 I hope this doesn't come as a surprise, but there are two skills that differentiate novice programmers from senior engineers:
 - Senior engineers can navigate a codebase they've never seen before efficiently without much direction.
@@ -99,7 +102,7 @@ Don't be afraid to give your feedback, **especially if you're still starting out
 
 Sidenote: There is not a lot of good material on learning to approach new codebases, but I'm working on a manual to help with that. If you're interested, subscribe below so that you don't miss out when I announche it.
 
-### Recap
+# Recap
 
 I hope I've convinced you that Reddit is a good place to find growth as a programmer, and given you some useful pointers.
 
