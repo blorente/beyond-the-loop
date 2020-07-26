@@ -1,17 +1,29 @@
-<form style="border:1px solid #ccc;padding:3px;text-align:center;"
-    action="https://feedburner.google.com/fb/a/mailverify" method="post" target="popupwindow"
-    onsubmit="window.open('https://feedburner.google.com/fb/a/mailverify?uri=beyond-the-loop', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
-    <!-- <p class="subscribe-form">Already done with all the posts, and hungry for more?</p>
+<form action="https://blorente.us17.list-manage.com/subscribe/post?u=6735006af3aee9e33a3b8173c&amp;id=e0cff83fad"
+    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+    novalidate>
+    <div id="mc_embed_signup">
+        <!-- <p class="subscribe-form">Already done with all the posts, and hungry for more?</p>
     <p class="subscribe-form">Get updates whenever I put something out! (and only then)</p> -->
-    {% if page.call_to_action %}
+        {% if page.call_to_action %}
         {% for call_to_action_line in page.call_to_action %}
-            <p class="subscribe-form">{{call_to_action_line}}</p>
+        <p class="subscribe-form">{{call_to_action_line}}</p>
         {% endfor %}
-    {% else %}
-            <p class="subscribe-form">Get notified of everything that happens!</p>
-    {% endif %}
-    <p><input class="subscribe-form" type="text" style="width:50%" name="email" placeholder="Your email goes here." /></p><input type="hidden" value="beyond-the-loop"
-        name="uri" /><input type="hidden" name="loc" value="en_US" />
-        <input class="subscribe-form" type="submit" id="subscribe-button" value="Subscribe!" />
-    <p class="subscribe-form">Delivered by <a href="https://feedburner.google.com" target="_blank">FeedBurner</a>. It's by Google, so you know it's good.</p>
+        {% else %}
+        <p class="subscribe-form">Subscribe to get notified of everything that happens!</p>
+        {% endif %}
+        <!-- Begin Mailchimp Signup Form -->
+
+        <div id="mc_embed_signup_scroll">
+            <p>Name: <input type="text" value="" name="FNAME" class="email" id="mce-FNAME"></p>
+            <p>Email: <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Required" required></p>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                    name="b_6735006af3aee9e33a3b8173c_e0cff83fad" tabindex="-1" value=""></div>
+            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                    class="button"></div>
+        </div>
+        <p class="subscribe-form">Delivered by <a href="https://mailchimp.com/" target="_blank">MailChimp</a></p>
+
+    </div>
+    <!--End mc_embed_signup-->
 </form>
