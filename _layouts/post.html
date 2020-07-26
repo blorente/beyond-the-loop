@@ -35,6 +35,10 @@ layout: base
         {{ content }}
       </article>
 
+{% include social-links.html %}
+
+
+
       {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
@@ -48,13 +52,13 @@ layout: base
         </div>
       {% endif %}
 
+
       {% include see-products.html %}
+
+{% include social-share.html %}
 
       {% include mailing-list-form.html %}
 
-      {% if page.social-share %}
-        {% include social-share.html %}
-      {% endif %}
 
       <ul class="pager blog-pager">
         {% if page.previous.url %}
