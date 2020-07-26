@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "How to use Reddit to skyrocket your improvement"
+title: "Learn programming with Reddit"
+subtitle: "How to leverage Reddit's communities to skyrocket your improvement"
 date: "2020-07-26"
 url: how-to-use-reddit-to-skyrocket-your-improvement.html
 tags: ["Guides and Tutorials", "feedback", "mentoring", "reddit"]
