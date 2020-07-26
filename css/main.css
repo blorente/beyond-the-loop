@@ -36,8 +36,10 @@ figcaption {
   font-size: 14px;
 }
 blockquote {
-  color: #808080;
+  color: #505050;
   font-style: italic;
+  font-size: x-large;
+  background-color: #F9F9F9;
 }
 blockquote p:first-child {
   margin-top: 0;
