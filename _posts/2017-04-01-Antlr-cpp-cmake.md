@@ -8,7 +8,7 @@ tags: [Guides and Tutorials, antlr4, c++, CMAKE]
 ---
 Not long ago, I had to process a language's syntax for a rather big solo
 project written in C++14 and using CMake 3.6 as the build system
-(check it [here](https://github.com/blorente/naylang)). I had no idea about which tool to use at the time, and ANTLR sounded familiar. The last version (ANTLR 4) had a [freshly-made C++ target](http://www.soft-gems.net/index.php/tools/49-the-antlr4-c-target-is-here) merged into the main repo, which generated lexers and parsers in C++11, so I went ahead and spent the weekend integrating it in my project.
+(check it [here](https://github.com/blorente/naylang)). I had no idea about which tool to use at the time, and ANTLR sounded familiar. The last version (ANTLR 4) had a [freshly-made C++ target](https://www.soft-gems.net/index.php/tools/49-the-antlr4-c-target-is-here) merged into the main repo, which generated lexers and parsers in C++11, so I went ahead and spent the weekend integrating it in my project.
 
 This is an account of the trials and conclusions I found.
 

@@ -96,7 +96,7 @@ I posted my code in [r/cpp_questions](https://www.reddit.com/r/cpp_questions/), 
 
 I got lots of great advice **that it would have taken me months to figure out** on my own:
 
-<blockquote class="reddit-card" data-card-created="1595777548"><a href="https://www.reddit.com/r/cpp_questions/comments/46kfn6/so_i_made_a_chip8_interpreter_as_my_first/">So I made a CHIP-8 Interpreter as my first production-level C++ project, any advice?</a> from <a href="http://www.reddit.com/r/cpp_questions">r/cpp_questions</a></blockquote>
+<blockquote class="reddit-card" data-card-created="1595777548"><a href="https://www.reddit.com/r/cpp_questions/comments/46kfn6/so_i_made_a_chip8_interpreter_as_my_first/">So I made a CHIP-8 Interpreter as my first production-level C++ project, any advice?</a> from <a href="https://www.reddit.com/r/cpp_questions">r/cpp_questions</a></blockquote>
 <script async src="//embed.redditmedia.com/widgets/platform.js" charset="UTF-8"></script>
 
 **One more time**: Most subreddits are full of knowledgeable people willing to help. As long as you are respectful of their time, don't be afraid to ask them for answers or feedback!
