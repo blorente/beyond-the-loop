@@ -1,10 +1,15 @@
 ---
 layout: post
-title: "1% Better: Make git status interactive with -p"
-date: 2020-07-29
+title: '1% Better: Make git add interactive with -p'
+date: 'Wed Jul 29 2020 01:00:00 GMT+0100 (British Summer Time)'
 url: make--interactive-with-.html
-tags: [1% Better, git]
-call_to_action: ["You are now 1% better as an engineer!", "Subscibe to get the next 1% tip!"]
+tags:
+  - 1% Better
+  - git
+call_to_action:
+  - You are now 1% better as an engineer!
+  - Subscibe to get the next 1% tip!
+published: true
 ---
 
 > **TL;DR**
