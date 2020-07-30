@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "1% Better: 3 scripts to explore jar files easily"
-date: "2020-07-29"
+date: 2020-07-30
 url: 3-scripts-to-explore-jar-files-easily.html
 tags: [1% Better, jars, java, jvm]
 call_to_action: ["You are now 1% better as an engineer!", "Subscibe to get the next 1% tip!"]
