@@ -119,21 +119,27 @@ When you master those more complex pieces, you can use _those_ to compose bigger
 
 This cycle actually continues, almost forever. **Experienced engineers have deeply mastered many, many concepts**, so they are able to form very complex systems without being worried about the details of every small pieces.
 
+> Advanced engineers have a very rich vocabulary of programming concepts at their fingertips.
+
 **The more advanced you are, the bigger picture you can see**.
 
 #### Resources
 
-While **practice** is king to develop this intuitive understanding, here are some books that teach essential concepts:
+While **practice** is the most important factor to develop this intuitive understanding, here are some books that teach essential concepts:
 
 - [Clean Code](https://amzn.to/317iqo9): It's a great handbook for solid Object Oriented Programming. Whether you like OOP or not, it has some great notions on how to keep OOP code neat and tidy.
 - [The Pragmatic Programmer](https://amzn.to/2D0C6lK): The best programming book I've read, by far. It outlines best practices for engineers, and **how** to achieve the deep understanding I refer to in this book. I want to write a full review soon, so subscribe if you're interested!
 
-**Full Disclosure:** These are all affiliate links, so I get a small amount of money if you buy them. These are my favourite books, and I really think you'll enjoy them.
+_Full Disclosure: These are all affiliate links, so I get a small amount of money if you buy them. These are my favourite books, and I really think you'll enjoy them._
 
 ## Conclusion
 
 These milestones have been consistently met by senior developers around me, so I think you can benefit by working towards them!
 
-If you are interested in any of these goals, but would like advice or direction, **don't hesitate to contact me on Twitter**: [@BeyondLoop](https://twitter.com/BeyondLoop). I'll be happy to help however I can.
+However, keep in mind that **these can take years to accomplish!** These are career-long goals to strive towards, it's expected that they will take time!
+
+**I'd like to hear from you.** Have you met any of these milestones? Which one are you going for next? Was this article helpful?
+
+**Don't hesitate to contact me on Twitter** [@BeyondLoop](https://twitter.com/BeyondLoop), for questions or feedback. I'll be happy to help however I can.
 
 Until then, happy journey!
