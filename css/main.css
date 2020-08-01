@@ -795,7 +795,9 @@ pre {
 
 /* Subscribe form */
 .subscribe-form {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.subscribe-form-small {
+  font-size: small;
 }
 
 #subscribe-button {
