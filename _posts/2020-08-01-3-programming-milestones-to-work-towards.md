@@ -2,7 +2,7 @@
 layout: post
 title: "3 Programming milestones to work towards"
 subtitle: "How to know when you're not a beginner anymore"
-date: "2020-08-01"
+date: 2020-08-01
 url: 3-programming-milestones-to-work-towards.html
 tags: [Programming Fundamentals]
 call_to_action: ["Subscribe for tips to achieve each of these milestones", "I won't spam you, I promise!"]
