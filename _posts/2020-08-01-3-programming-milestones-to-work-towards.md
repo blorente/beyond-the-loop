@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "3 Programming milestones to work towards - and how to do it!"
+title: "3 Programming milestones towards mastery - and how to accomplish them!"
 subtitle: "How to know when you're not a beginner anymore"
 date: 2020-08-01
 url: 3-programming-milestones-to-work-towards.html
