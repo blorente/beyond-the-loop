@@ -68,10 +68,13 @@ function doSomething(element) {
 }
 ```
 
-When a function changes one of its parameters like that, it's called a **side effect**.
+When a function changes one of its parameters like that, it's called a **side effect**. Side effects are generally best avoided.
 
-_There are many examples of why this is generally a bad thing, but it's not something I want to argue in this article. Instead, I'll direct you to this great piece of content on side effects: _
+_There are many examples of why this is generally a bad thing, but it's not something I want to argue in this article. There are many great articles out there arguing for it. Search for "immutability"._
 
+In Rust, **you need to say which of your variables are expected to change**. Therefore, you always know whether a function will change what you pass to it, whithuot having to look at the code.
+
+This is invaluable when you are working in a big project with lots of moving pieces. The less you need to know about the other pieces, the better!
 
 ## 
 
