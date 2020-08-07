@@ -58,13 +58,49 @@ But, once you're ready to take the next step and work on bigger projects and app
 
 So. What *does* Rust teach you?
 
+# Rust will teach you about types
+
+Let's look at the following example in JavaScript:
+
+```javascript
+function add(a, b) {
+    return a + b
+}
+```
+
+What are `a` and `b`? Are they numbers? Letters? Lists?
+
+It doesn't matter. As long as the `+` operation makes sense for them, you don't have to know anything else about `a` and `b`.
+
+Most beginner programming languages don't enforce types. And that's a good thing! In small applications, types just get in the way.
+
+However, as you start working on bigger and bigger projects, you start to realize that types have one benefit:
+
+They give you information about other parts of the program **without having to read it**. If used right, types teach you how to use a function without having to read the body!
+
+Let's look at the same function, in Rust:
+
+```rust
+fn add(a: i64, b: i64) -> i64 {
+    return a + b
+}
+```
+
+The signature of the function (`add(a: i64, b: i64) -> i64`) tells us exactly what the function does: 
+
+> If you give me two numbers (`i64` is a type of number in Rust), I will `add` them and give you another number back (`-> i64`).
+
+This is much more descriptive than the other example!
+
+Eventually, you're bound to come across types in your programming career, and Rust will teach you all you need to know!
+
 # Rust makes you aware of mutability
 
 Most popular programming languages are mutable by default. In both Python and JavaScript, a function can change its parameters. In other words, this is reasonable code in most languages:
 
 ```javascript
-function doSomething(element) {
-    element.color = "red"
+function doSomething(number) {
+    number = 5
 }
 ```
 
@@ -72,17 +108,23 @@ When a function changes one of its parameters like that, it's called a **side ef
 
 _There are many examples of why this is generally a bad thing, but it's not something I want to argue in this article. There are many great articles out there arguing for it. Search for "immutability"._
 
-In Rust, **you need to say which of your variables are expected to change**. Therefore, you always know whether a function will change what you pass to it, whithuot having to look at the code.
+In Rust, **you need to say which of your variables are expected to change**. Let's look at the same function, written in Rust:
 
-This is invaluable when you are working in a big project with lots of moving pieces. The less you need to know about the other pieces, the better!
+```rust
+fn doSomething(number: &mut usize) {
+    number = 2
+}
+```
 
-## 
+Notice the little `&mut` after the parameter name: It tells you that 
 
-## The promise of Rust
+As you can see, you always know whether a function will change what you pass to it, **just by the first line**!
 
-> At it's core, Rust is making you a promise:
->
-> "I will ask you to think very hard about your code before shipping it.
-> In return, I will make your code run fast and without errors forever"
+Yet another piece of information that Rust gives us to **guess what a function does without reading it**.
 
+# Rust will teach you about memory management
+
+Earlier in this article, we talked about how Rust's type system is very powerful.
+
+TODO RUst;s types are tied to memory!
 
