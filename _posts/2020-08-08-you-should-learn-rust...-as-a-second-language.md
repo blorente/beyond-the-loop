@@ -2,7 +2,7 @@
 layout: post
 title: "You should learn Rust... As a second language"
 subtitle: "Leverage the powerful design decisions behind Rust to level up your core engineering skills"
-date: "2020-08-05"
+date: 2020-08-08
 url: you-should-learn-rust-as-a-second-language.html
 tags: [Programming Fundamentals]
 call_to_action: []
