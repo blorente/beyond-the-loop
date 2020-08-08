@@ -58,6 +58,26 @@ But, once you're ready to take the next step and work on bigger projects and app
 
 So. What *does* Rust teach you?
 
+# Rust teaches you to read (and understand) the output of your tools
+
+Rust will try to catch and fix a lot of your bugs before it runs your code.
+
+This is great, because it means that it will teach you to think about things that you weren't thinking before (more on that later), but it also means that it will produce **a lot** of error messages.
+
+In fact, programming in Rust is often described as **"a conversation with the tools"**, where you tell the tool "is my code allright?" and the tool responds with great error messages.
+
+Inevitably, this means that you'll need to **get into the habit of reading erorr messages carefully**. Rust's error messages are thoughtfully crafted to be informative and actionable.
+
+Sometimes, Rust will even guess what concept you need to understand to solve the error, and **point you to the right documentation!**
+
+Let me repeat that.
+
+Rust will see the bug, catch it, guess "this user doesn't quite understand X", and it will give you a link to it!
+
+If you get into the habit of carefully reading and understanding error messages, your productivity and learning will skyrocket.
+
+Now, let's dive into some more concrete things Rust will teach you.
+
 # Rust will teach you about types
 
 Let's look at the following example in JavaScript:
@@ -124,7 +144,71 @@ Yet another piece of information that Rust gives us to **guess what a function d
 
 # Rust will teach you about memory management
 
-Earlier in this article, we talked about how Rust's type system is very powerful.
+Let's take a look at this code:
 
-TODO RUst;s types are tied to memory!
+```javascript
+var hello = "Hello World!"
+console.log(hello)
+console.log(hello)
+```
+
+For this code to work, the computer has to remember what the value of `hello` is, **all the way until the end of the program**. In other words, it has to **store** it in **memory**.
+
+A computer has a finite amount of memory, or things it can remember at any given time. Incidentally, this is one of the reasons why your phone closes background apps, or why your whole computer becomes slow when you have too many tabs open.
+
+For small applications, this is not really a concern. There aren't _that_ many things the project needs to remember.
+
+However, it's not uncommon for big applications to have to remember several Gigabyte's worth of data at once, which can quickly become a problem.
+
+Let's say we want to represent a 2D point in JavaScript. We could write the following:
+
+```javascript
+var p = {
+  x: 0,
+  y: 0
+}
+```
+
+How much memory do we need in order to remember `p`?
+
+Trick question, the code doesn't tell us.
+
+Rust, however, lets you choose **exactly how much memory** it takes to remember something, and **how long the computer needs to remember it for**.
+
+Let's see how we can implement that same point in Rust:
+
+```rust
+struct Point {
+  x: i64,
+  y: i64,
+}
+
+let p: Point = Point{x: 0, y: 0}
+```
+
+How much memory does it take to remember one `p`?
+
+Well, a `Point` has one `x` and one `y`. They are both `i64`. An `i64` takes exactly 64 bits of memory. So, a `Point` will take exactly 128 bits of memory.
+
+Most types in Rust can be broken down this way. Thinking about code this way will make you aware of when you're remembering too much!
+
+Now, there is a lot more Rust does about memory management that I won't get into here. Suffice to say that it's **a great language if you want to learn about it!**
+
+# Sounds great! Where do I start?
+
+These are just a few reasons why I think Rust is great as a second language.
+
+If I've convinced you and you want to give it a try, check out these resources!
+
+- The [Rustlings Course](https://github.com/rust-lang/rustlings): An open source series of exercises that guide you through setting up your Rust environment and writing your first lines of Rust! If in doubt, start here.
+- The official website has a [Learn Page](https://rust-lang.org/learn) with the most popular and amazing resources.
+- Rust has an amazing community that is more than ready to welcome newcomers. Check out the official website's [Community Section](https://rust-lang.org/community) for more links.
+- If you're an experienced developer coming from another language, check out [intorust.com](http://intorust.com). It's a series of videos explaining the fundamental differences that Rust has with other languages like C++ or Java.
+
+# Conclusion
+
+Rust is an amazing language, and I personally love it. I wouldn't recommend it as a first language, but it's a fantastic tool to guide you in those next steps beyond the beginner phase!
+
+What do you think? Whether you agree or disagree, I'd love to hear from you!
+
 
