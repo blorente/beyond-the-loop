@@ -5,7 +5,6 @@ subtitle: "Leverage the powerful design decisions behind Rust to level up your c
 date: 2020-08-08
 url: rust-second-language.html
 tags: [Programming Fundamentals]
-call_to_action: []
 ---
 
 So, you've taken your first steps into programming. Welcome!
