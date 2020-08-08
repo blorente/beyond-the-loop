@@ -30,7 +30,7 @@ Let's start from the beginning. What is Rust?
 
 According to the official webpage, [rust-lang.org](https://www.rust-lang.org/) Rust focuses on 3 things:
 
-![Rust Second Language](img/for-posts/rust-second-langauge/rust-header.png)
+![Rust Second Language]({{site.baseurl}}/img/for-posts/rust-second-langauge/rust-header.png)
 
 Let's break it down:
 
