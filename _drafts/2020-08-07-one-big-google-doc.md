@@ -12,4 +12,4 @@ The title says it all, really.
 
 **I keep all my notes in one big Google Doc**. It's been going on for about two years, and it's grown to about 100 pages.
 
-`
+

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "You should learn Rust... As a second language"
+title: "Why learning Rust is great... As a second language"
 subtitle: "Leverage the powerful design decisions behind Rust to level up your core engineering skills"
 date: 2020-08-08
-url: you-should-learn-rust-as-a-second-language.html
+url: rust-second-language.html
 tags: [Programming Fundamentals]
 call_to_action: []
 ---
@@ -30,7 +30,7 @@ Let's start from the beginning. What is Rust?
 
 According to the official webpage, [rust-lang.org](https://www.rust-lang.org/) Rust focuses on 3 things:
 
-![Rust Second Language]({{site.baseurl}}/img/for-posts/rust-second-langauge/rust-header.png)
+![Rust Second Language]({{site.baseurl}}/img/for-posts/rust-second-language/rust-header.png)
 
 Let's break it down:
 
@@ -54,7 +54,7 @@ When you're first learning to code, **you don't need that much power**. Your pro
 
 Therefore, **you shouldn't take that extra responsibility**. It will end up getting in the way.
 
-But, once you're ready to take the next step and work on bigger projects and applications, you **will** need to learn all the things that Rust helps you think about.
+But, once you're ready to take the next step and work on bigger projects and applications, you **will** need to learn many of the things that Rust helps you think about.
 
 So. What *does* Rust teach you?
 
@@ -64,7 +64,7 @@ Rust will try to catch and fix a lot of your bugs before it runs your code.
 
 This is great, because it means that it will teach you to think about things that you weren't thinking before (more on that later), but it also means that it will produce **a lot** of error messages.
 
-In fact, programming in Rust is often described as **"a conversation with the tools"**, where you tell the tool "is my code allright?" and the tool responds with great error messages.
+In fact, programming in Rust is often described as **"a conversation with the tools"**, where ask tell the tool "is my code allright?" and the tool responds with great error messages.
 
 Inevitably, this means that you'll need to **get into the habit of reading erorr messages carefully**. Rust's error messages are thoughtfully crafted to be informative and actionable.
 
@@ -92,7 +92,7 @@ What are `a` and `b`? Are they numbers? Letters? Lists?
 
 It doesn't matter. As long as the `+` operation makes sense for them, you don't have to know anything else about `a` and `b`.
 
-Most beginner programming languages don't enforce types. And that's a good thing! In small applications, types just get in the way.
+Languages that beginners tend to learn first don't enforce types. And that's a good thing! In small applications, types can end up getting in the way.
 
 However, as you start working on bigger and bigger projects, you start to realize that types have one benefit:
 
@@ -119,8 +119,8 @@ Eventually, you're bound to come across types in your programming career, and Ru
 Most popular programming languages are mutable by default. In both Python and JavaScript, a function can change its parameters. In other words, this is reasonable code in most languages:
 
 ```javascript
-function doSomething(number) {
-    number = 5
+function doSomething(list) {
+    list.push(5)
 }
 ```
 
@@ -132,11 +132,11 @@ In Rust, **you need to say which of your variables are expected to change**. Let
 
 ```rust
 fn doSomething(number: &mut usize) {
-    number = 2
+    *number = 2
 }
 ```
 
-Notice the little `&mut` after the parameter name: It tells you that 
+Notice the little `&mut` after the parameter name: It tells you that the function is allowed to change the parameter.
 
 As you can see, you always know whether a function will change what you pass to it, **just by the first line**!
 
