@@ -1,11 +1,8 @@
----
-layout: post
-title: "Why learning Rust is great... As a second language"
-subtitle: "Leverage the powerful design decisions behind Rust to level up your core engineering skills"
-date: 2020-08-08
-url: rust-second-language.html
-tags: [Programming Fundamentals]
----
+
+**Note:** This content was originally posted in my blog, [Beyond The Loop](https://beyondtheloop.dev/3-programming-milestones-to-work-towards/).
+If you like it, head over there or follow the blog on Twitter ([@BeyondLoop](https://twitter.com/BeyondLoop)) for more!
+
+
 
 So, you've taken your first steps into programming. Welcome!
 
@@ -29,7 +26,7 @@ Let's start from the beginning. What is Rust?
 
 According to the official webpage, [rust-lang.org](https://www.rust-lang.org/) Rust focuses on 3 things:
 
-![Rust Second Language]({{site.baseurl}}/img/for-posts/rust-second-language/rust-header.png)
+![Rust Second Language](https://beyondtheloop.dev/img/for-posts/rust-second-language/rust-header.png)
 
 Let's break it down:
 
@@ -61,11 +58,11 @@ So. What *does* Rust teach you?
 
 Rust will try to catch and fix a lot of your bugs before it runs your code.
 
-This is great because it means that it will teach you to think about things that you weren't thinking before (more on that later), but it also means that it will produce **a lot** of error messages.
+This is great, because it means that it will teach you to think about things that you weren't thinking before (more on that later), but it also means that it will produce **a lot** of error messages.
 
-In fact, programming in Rust is often described as **"a conversation with the tools"**, where ask tell the tool "is my code alright?" and the tool responds with great error messages.
+In fact, programming in Rust is often described as **"a conversation with the tools"**, where ask tell the tool "is my code allright?" and the tool responds with great error messages.
 
-Inevitably, this means that you'll need to **get into the habit of reading error messages carefully**. Rust's error messages are thoughtfully crafted to be informative and actionable.
+Inevitably, this means that you'll need to **get into the habit of reading erorr messages carefully**. Rust's error messages are thoughtfully crafted to be informative and actionable.
 
 Sometimes, Rust will even guess what concept you need to understand to solve the error, and **point you to the right documentation!**
 
@@ -199,7 +196,7 @@ These are just a few reasons why I think Rust is great as a second language.
 
 If I've convinced you and you want to give it a try, check out these resources!
 
-- The [Rustlings Course](https://github.com/rust-lang/rustlings): An open-source series of exercises that guide you through setting up your Rust environment and writing your first lines of Rust! If in doubt, start here.
+- The [Rustlings Course](https://github.com/rust-lang/rustlings): An open source series of exercises that guide you through setting up your Rust environment and writing your first lines of Rust! If in doubt, start here.
 - The official website has a [Learn Page](https://rust-lang.org/learn) with the most popular and amazing resources.
 - Rust has an amazing community that is more than ready to welcome newcomers. Check out the official website's [Community Section](https://rust-lang.org/community) for more links.
 - If you're an experienced developer coming from another language, check out [intorust.com](http://intorust.com). It's a series of videos explaining the fundamental differences that Rust has with other languages like C++ or Java.
