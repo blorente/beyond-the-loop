@@ -1,0 +1,7 @@
+- [X] Add amazon.co.uk links to the affiliate pages
+- [ ] Add 2 other books
+- [ ] Add upcase to the courses page
+- [ ] Add some articles to each section of recurring series
+    - [ ] Maybe even fetch posts on the fly
+- [ ] Add lead magnet
+- [ ] 
