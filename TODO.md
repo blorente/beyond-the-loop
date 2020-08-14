@@ -1,7 +1,7 @@
 - [X] Add amazon.co.uk links to the affiliate pages
 - [X] Add 2 other books
 - [X] Add upcase to the courses page
-- [ ] Add some articles to each section of recurring series
-    - [ ] Maybe even fetch posts on the fly
+- [X] Add some articles to each section of recurring series
+    - [X] Maybe even fetch posts on the fly
 - [ ] Add lead magnet
 - [ ] 
