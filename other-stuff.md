@@ -13,3 +13,14 @@ Brain.fm is, hands down, **the best thing to have on my headphoones while I'm co
 That's it. It does one thing. But it does it so damn well.
 
 The yearly subscription has paid for itself several times over in increased productiviy.
+
+### [Upcase by Thoughtbot](https://thoughtbot.com/upcase)
+
+It's an amazing collection of **free** video tutorials and other resources aimed towards intermediate programmers.
+
+In Their own words:
+
+> We're not a bootcamp, we're a finishing school.
+> Become an experienced developer and take "junior" out of your title.
+
+They are also trying to bridge that gap between beginner and advanced, they are what inspired this blog in the first place.
