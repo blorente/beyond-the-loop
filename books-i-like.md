@@ -21,10 +21,28 @@ It outlines **what's important** and what's not about programming, **how** to sp
 
 Most engineers I deeply admire have similar thought patterns to the ones described in this book. They work through problems the same way, and they are remarkably efficient and insightful in their coding.
 
-I really feel like this book is the next best thing to having an engineering mentor to learn from.
+This book is the next best thing to having an engineering mentor to learn from.
 
 If you already know how to code, but are looking to bring yourself to that senior level, this book is for you.
 
 I'm planning to write a full review of this book soon, complete with tips and things to look out for when reading it. Put your email below, so that you don't miss it!
 
 {% include amazon-links.html amazonuk_link='https://amzn.to/2XUBQfe' amazoncom_link='https://amzn.to/2ZHcYJ0' %}
+
+---
+
+### [Game Programming Patterns - R. Nystrom (@munificientbob)](https://amzn.to/31RdNin)
+
+<a href="https://www.amazon.co.uk/dp/0990582906/ref=as_li_ss_il?ie=UTF8&linkCode=li3&tag=blorentestore-21&linkId=fcc8edbd0b5aab2a5787fe43e66492be&language=en_GB" target="_blank"><img border="0" src="//ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0990582906&Format=_SL250_&ID=AsinImage&MarketPlace=GB&ServiceVersion=20070822&WS=1&tag=blorentestore-21&language=en_GB" ></a><img src="https://ir-uk.amazon-adsystem.com/e/ir?t=blorentestore-21&language=en_GB&l=li3&o=2&a=0990582906" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
+This is one of the best-written programming books I've read. I love Robert's style and all the love and care he puts in his work.
+
+It covers most of the important design patterns in the wider industry, so I'd recommend this **even if you're not a games programmer**!
+
+The writing style is sharp, concise and to the point. The examples are relevant and beautifully illustrated.
+
+Even though I don't make games anymore, I still come back to it just for the pleasure of reading it. And you should too!
+
+{% include amazon-links.html amazonuk_link='https://amzn.to/2Fq71bS' amazoncom_link='https://amzn.to/342TKQG' %}
+
+---
