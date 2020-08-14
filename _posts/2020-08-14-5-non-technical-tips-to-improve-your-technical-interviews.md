@@ -5,7 +5,7 @@ subtitle: "Preparing for technical interviews is not only about learning to solv
 date: 2020-08-14
 url: 5-non-technical-tips-to-improve-your-technical-interviews.html
 tags: []
-call_to_action: []
+call_to_action: ["If you like this article, you'll probably like the next one too!", "Enter your email to get notified whenever a new post comes out"]
 ---
 
 Technical interviews!
@@ -58,6 +58,8 @@ Now, tell it to someone a couple of times. We don’t want it fully memorised, b
 Walk into the interview ready to share that story, and I guarantee you’ll have at least one opportunity to tell it.
 
 Take advantage of this to **show** your best side!
+
+{% include mailing-list-form.html %}
 
 # 	🤝️Show them you're great to work with
 
