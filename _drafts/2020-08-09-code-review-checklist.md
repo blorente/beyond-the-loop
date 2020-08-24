@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "My Code Review Checklist"
+title: "Fearless Code Reviews"
 subtitle: "A systematic approach to make Code Review less overwhelming"
 date: "2020-08-07"
 url: code-review-checklist.html
 tags: [Programming Fundamentals, Code Review]
-call_to_action: ["I'm planning on making this into a nice infographic.", "Subscribe to get notified when that happens."]
+call_to_action: ["I'm planning on making this checklist into a nice infographic.", "Subscribe to get notified when that happens!"]
 ---
 
 Code Review is a fundamental skill for engineers.
 
 Being able to read a set of changes and derive useful insights and constructive feedback will make you invaluable as a colleague. Plus, it will result in better code!
 
-However, it can be very intimidating at first. It's normal to see your first 100 line change Pull Request, and not even know where to begin.
+However, it can be very intimidating at first. It's normal to see your first Pull Request and not even know where to begin.
 
-I know I had this problem when I first started, and so I did what's always worked for me:
+I had this problem when I first started, and so I did what's always worked for me:
 
-I asked my senior colleagues for their thought process. How do _they_ approach code review? What do they look for?
+**I asked my senior colleagues about their thought process**. How do _they_ approach code review? What do they look for? What questions do they ask?
 
-Taking all those answers into account, I commpiled my own checklist. A series of questions I can use to guide my thoughts during a review.
+Taking all those answers into account, I compiled my own checklist. A series of questions I can use to guide my thoughts during a review.
 
 Having a defined, repeatable process helps me break down the process of reviewing into smaller chunks, making it a lot less overwhelming.
 
@@ -28,18 +28,23 @@ This list has been invaluable for me over the years. I hope it will be valuable 
 
 # Fist: Read the description
 
-**Before you jump into any code at all**, you need to have answers to some questions. It's important to do this before even reading the code, because it's really easy to get lost in the nitty-gritty of code style and micro-optimization, where these are the important questions to ask.
+**Before you jump into any code at all**, you need to have answers to some questions. It's important to do this before even reading the code because it's really easy to get lost in the nitty-gritty of code style and micro-optimization, forgetting to ask these important questions.
 
-**What problem is this PR trying to solve?**:
+**What problem is this change trying to solve?**:
 This is a vital question. Every PR should solve one (and only one) problem.
+
 The problem could be "we need this feature, and it's missing", or "there is a bug, and we need to fix it".
-Evaluating a PR is essentially finding out how well it solves the problem, so it's vital that you understand it.
+
+Reviewing a PR is the process of finding out how well it solves the problem. Therefore, a deep understanding of the problem is a vital first step.
+
 Make sure you understand the problem, how it manifests, and how it affects users.
-  
+
+{% include mailing-list-form.html %}
+
 **How would you solve this problem?**:
 Before learning how the author solved the problem, take a moment to think about how **you** would solve it. 
 
-It doesn't have to be a full solution, just the general idea of how it would look like. You'll be suprised at how quickly you can come up with it!
+It doesn't have to be a full solution, just the general idea of how it would look like. You'll be surprised at how quickly you can come up with the general structure for it!
 
 This is useful for two reasons:
 - It will tell you whether you really understand the problem. If you can't come up with an idea of a solution, it's very likely that you're missing some context, and should find out more about the parts of the codebase involved with the change.
@@ -48,22 +53,108 @@ This is useful for two reasons:
 When you have your idea for what a solution would look like, the next question is:
 
 **What solution did the author go with?**
-This should be clear from the description of the PR. Make sure you understand (and agree with) the solution and all its pieces.
+This should be clear from the title and description of the PR. Remember, we haven't even looked at the code yet. Make sure you understand (and agree with) the solution and all its pieces.
 
-Some common results of asking this question are:
-- You don't quite understand some piece of the solution: If this happens, you need to figure out what exactly you don't understand, and read code and documentation until you do!
-- You don't agree with some part of the solution: If this is the case, **stop the review**, and focus on discussing this with the author. Present your concerns, add some alternatives, and find a solution that satisfied both you and the author!
+Asking this question often results in us realizing that:
+- We don't quite understand some piece of the solution: If this happens, you need to figure out what exactly you don't understand, and read existing code and documentation until you do!
+- We don't agree with the solution: If this is the case, **stop the review**, and focus on discussing this with the author. Present your concerns, add some alternatives, and find a solution that satisfied both you and the author!
 
 **You made it!**
 If you made it this far, it means you now have a deep understanding of the problem, and agree that the solution is the right one.
 
 Great!
 
-This thought process alone will make your reviews incredibly impactful, because you will be identifying big problems first, and not getting lost in the minutia.
+**This thought process alone will make your reviews incredibly impactful** because you will be identifying big problems first, and not getting lost in the minutia.
 
-Now that that's done with, you're ready to begin reviewing the implementation!
+Now, with this deep understanding, let's go to the nitty-gritty!
 
-# Second: Make different passes through the changes, looking for different things each time
+# Second: Read the actual changes several times, looking for different things each time
+
+Let's jump into the code!
+
+Now... where do we start?
+
+It can feel very intimidating to just jump into the review page and start reading. It's overwhelming! Where do you even look?
+
+The main problem here is that we're **trying to think about everything at once**. I don't know about you, but I can't do it.
+
+When we're reviewing code, there are many things we should look for:
+- Does the code actually implement the solution described in the description?
+- Are there any performance concerns?
+- Is the code well-tested?
+- Does the code conform to formatting and style standards?
+- ...
+
+That's a lot to think about! So, instead of trying to answer all of these the first time we see the changes, **we're going to go through the changes multiple times**, answering a different question each time.
+
+This will reduce the scope of what we're thinking about to just one question.
+
+For instance, imagine the only thing asked from you for that code review is "is the code well-tested?".
+
+Well, there's a clear path forward: We know we should **start with the tests**, and see if they cover all the cases we think should be covered. It's definitely not as intimidating!
+
+The trick is to do the same for each question:
+
+1- Pick one question.
+2- Go through the code changes to validate that question.
+3- Leave comments.
+4- Go to 1.
+
+We want to check performance? If we understand the pieces involved, we should have a good idea of which ones are sensitive to being slow (because they run often). We should focus on those first.
+
+We want to check formatting and naming? We can forget about what the code does, and just read the words and symbols.
+
+You should build your own list of questions to ask the code, but here's mine:
+
+- Does the code implement the solution described?
+- Does it have conscious performance tradeoffs?
+- Does it have unconscious performance inefficiencies?
+- Does it conform to the naming and style guidelines?
+- Is it well-tested?
+- Are there any hard-to-understand parts? Do they _have_ to be there? If so, are they properly isolated and documented?
+
+# One More Time From the Top
+
+I promised a condensed checklist, so here it is! I'm planning on making this into a free infographic that you can print, so subscribe to the mailing list below to get notified when that happens!
+
+```markdown
+**Before Reading Code**
+These should be checked by reading the description and existing code, not the changes themselves!
+- [ ] I understand the problem this change is trying to solve.
+  - [ ] I understand and agree with why we need this feature or bug solved.
+  - [ ] I understand all the pieces involved in causing the problem.
+- [ ] I have a general idea of how I'd solve the problem.
+- [ ] I agree with the solution proposed.
+  - [ ] I agree with the performance tradeoffs presented in the solution (if the change is perf-sensitive).
+  - [ ] If not, I have talked with the author until we've reached consensus.
+
+**When Reading the Code**
+We should make one pass for each of these questions.
+- [ ] The code implements what's actually described as the solution.
+- [ ] The code doesn't have unintentional inefficiencies.
+- [ ] The code conforms to naming and code style guidelines.
+- [ ] There are no unnecessary hard-to-understand parts.
+  - [ ] The ones that are there are properly isolated and document.
+- [ ] The code is well-tested.
+```
+
+A review that looks at all of these things will be invaluable in generating better code!
+
+# The End
+
+That's it!
+
+Code Review: Done!
+
+Granted, this is a very time-consuming process. But keep in mind that **your first 5 reviews will be about learning to review correctly**. Code Review is a new skill for most people, they are expected to take some time to learn!
+
+And the good news is, once you get the hang of it, it gets a lot faster.
+
+After those reviews, you start asking questions one by one unconsciously, and you develop an intuition of where to start.
+
+I almost never actually go step by step in the checklist anymore, but I'm glad I have it for those tricky reviews!
+
+What's on your checklist? I'd love to know either via Twitter [@BeyondLoop](https://twitter.com/BeyondLoop), or [email](mailto:blorente.me@gmail.com).
 
 
 
