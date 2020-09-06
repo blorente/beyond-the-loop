@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "One Big Google Doc"
+title: "📄One Big Google Doc📄"
 subtitle: "The lazy but effective way to keep all your notes"
 date: "2020-08-07"
 url: one-big-google-doc.html
@@ -10,7 +10,7 @@ call_to_action: ["Would you like an expanded expalanation of these sections?", "
 
 The title says it all, really.
 
-**I keep all my notes, plan most of my projects, and keep a diary in one big Google Doc**. It's been going on for about two years, and it's grown to about 100 pages.
+**I keep all my notes, plan most of my projects, and keep a diary in one big Google Doc**. It's been going on for about two years, and it's grown to about 110 pages.
 
 It's been the most useful way to gather my knowledge about things I learn on the job, to keep track of projects, and even help me debug stuff!
 
@@ -30,6 +30,7 @@ When choosing a note-taking system, I want:
 - To be able to set reminders to do things.
 - To be able to write a diary (very important to keep track of the important points at meetings!)
 - To be able to put all the context around a single project, and easily archive that when I'm done with it.
+- To do all of that for free, or at least with a one-time payment.
 
 I've tried many systems before settling on this one, but they all had their flaws. One Big Google doc, however, fits these perfectly.
 
@@ -56,9 +57,11 @@ These are things that I'm expected to comment or act on, but haven't gotten arou
 - Comments I should address on my own code.
 - Actions I have to take as a result of a meeting.
 
-Ideally, this list should be empty at the end of each day. Doesn't always happen, but it's a great goal to have. If an item stays in this section for a week or more, it probably means it takes more time than I thought, and thus it has to become a real project. More on projects later.
+Ideally, this list should be empty at the end of each day. Doesn't always happen, but it's a great goal to have.
 
-Moving on!
+If an item stays in this section for a week or more, it probably means it takes more time than I thought, and thus it has to become a real project. More on projects later.
+
+Cool? Cool. Moving on.
 
 ## The Diary (and Archived Diary)
 
@@ -66,24 +69,26 @@ Moving on!
 
 This contains **a daily record and summaries of the meetings I've had and the things I've done during the day**.
 
-Here is an example entry about a very interesting conversation I had with one of my tech leads about a project. The meeting ran for 30 minutes, but I choose to synthetize it in a few sentences:
+Here is an example entry about a very interesting conversation I had with one of my tech leads about a project. The meeting ran for 30 minutes, but I was able to synthesize it in a few sentences:
 
 ![Example Diary Entry]({{site.baseurl}}/img/for-posts/one-big-google-doc/example-diary.png)
 
-Keeping these records serves three major purposes:
+Keeping these records has three goals:
 
-- When I'm focusing on learning a big skill (e.g. "Code Review", or "Leadership"), I can note everything that I see related to that skill during the day, in order to absorb it better.
+- When I'm focusing on **leveling up** a big skill (e.g. "Code Review", or "Leadership"), I can note everything that I see related to that skill during the day, in order to absorb it better.
   
   A colleague published a great code review? I think about what makes it great, and note down my learnings here.
-- I can note any relevant verbal and non-verbal cues I see during meetings. If I notice someone is being shy, or cut off, or not having a good time, I note it down to follow up later.
+- I can note any **verbal and non-verbal red flags** I see during meetings. If I notice someone is being shy, or cut off, or not having a good time, I note it down to follow up later.
 
-- When the time comes to ask for a promotion, I have a detail record of my contributions that I can use as argumentation that I've been contributing a lot of value.
+- When the time comes to **ask for a promotion**, I have a detailed record of my contributions that I can use as argumentation that I've been contributing a lot of value.
 
 Now, that said, **I'm not always diligent about keeping a diary**. It's a lot of work, and I think I rarely miss many important things at meetings anymore.
 
 However, it's something that helped me greatly when I started, and **I pick it back up whenever I'm having a particularly tough time at work**, or I want to **level up**.
 
-**Archived diary**: Every week, I move all entries from that week's diary into the diary archives so that only the most recent entries are immediately visible.
+#### Archived diary
+
+Every week, I move all entries from that week's diary into the diary archives so that only the most recent entries are immediately visible.
 
 {% include mailing-list-form.html %}
 
@@ -109,9 +114,11 @@ Here is an example of a project section. Notice how messy it is!
 
 Whenever I'm done with a project, it goes into "Completed Projects". These are projects that I've completed successfully, and thus can be part of a promotion packet.
 
-##### Frozen Projects
+#### Frozen Projects
 
-Sometimes, you don't get to finish a project. It gets deprioritized, or it was an experimental project that you didn't have enough time to finish. In those cases, I move the corresponding entry to the "Frozen Projects" list.
+Sometimes, you don't get to finish a project.
+
+It gets deprioritized, or it was an experimental project that you didn't have enough time to finish. In those cases, I move the corresponding entry to the "Frozen Projects" list.
 
 ## Notes on Content
 
@@ -119,9 +126,9 @@ This is the section where I note the important things I've learned.
 
 **I tend to learn in one of two ways**: Either I do ad-hoc learning when I'm working on a ticket (also known as frantically googling for information), or I sit down to learn something from the ground up.
 
-This is the section I use to do the latter.
+This is the section I use to **do the latter**.
 
-> Whenever I say "this is getting confusing, let's sit down and actually learn this", that's when it's time to open a new section here.
+> Whenever I say "this is getting confusing, let's sit down and really learn this", that's when I open a new section here.
 
 The point of writing my findings here is **not** to contain copy-pasted excerpts from the documentation of whatever I'm learning.
 
@@ -136,6 +143,8 @@ It's tailored to how I understand information, which is not necessarily how the 
 This section is long-term storage for digested content.
 
 # Conclusion
+
+That's it! That's all I use!
 
 Google Docs are deceptively powerful note-taking tools.
 
