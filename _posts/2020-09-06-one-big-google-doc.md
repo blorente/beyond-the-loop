@@ -2,7 +2,7 @@
 layout: post
 title: "📄One Big Google Doc📄"
 subtitle: "The lazy but effective way to keep all your notes"
-date: "2020-08-07"
+date: 2020-09-06
 url: one-big-google-doc.html
 tags: [1% Better]
 call_to_action: ["Would you like an expanded expalanation of these sections?", "Subscribe to be notified when they go live!"]
