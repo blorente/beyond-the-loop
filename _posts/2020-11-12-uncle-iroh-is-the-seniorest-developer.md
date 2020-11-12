@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "3 Programming Lessons From Uncle Iroh"
-date: "2020-11-11"
+date: 2020-11-12
 url: uncle-iroh-is-the-seniorest-developer.html
 tags: []
 call_to_action: []
