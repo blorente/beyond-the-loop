@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "3 Programming Lessons From Uncle Iroh"
+subtitle: "How an animation character made me a better programmer"
 date: 2020-11-12
 url: uncle-iroh-is-the-seniorest-developer.html
 tags: []
